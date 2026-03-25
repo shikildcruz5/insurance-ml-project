@@ -1,2 +1,25 @@
-# insurance-ml-project
-Machine Learning project to predict customer response to insurance offers using classification models. Includes data preprocessing, EDA, feature engineering, SMOTE for class imbalance handling, model evaluation, and a deployed Streamlit web application for real-time prediction.
+# Insurance Customer Response Prediction
+
+This project predicts whether a customer will respond to an insurance offer using Machine Learning.
+
+## Features
+- Data preprocessing and cleaning
+- Exploratory Data Analysis (EDA)
+- Feature engineering
+- Handling class imbalance using SMOTE
+- Model training (Logistic Regression, Decision Tree, Random Forest)
+- Model evaluation and comparison
+- Streamlit web app for real-time prediction
+
+## Tech Stack
+- Python
+- Scikit-learn
+- Pandas, NumPy
+- Streamlit
+
+## How to Run
+1. Install dependencies:
+   pip install -r requirements.txt
+
+2. Run the app:
+   streamlit run app.py
